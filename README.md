@@ -2,6 +2,11 @@
 
 This is a PHP client for the Magento / Adobe Commerce REST API.
 
+## Requirements
+
+* PHP 8.2 or higher
+* Magento / Adobe Commerce 2.3 or higher
+
 ## Installation
 
 ```bash
@@ -21,7 +26,7 @@ use ClickAndMortar\MagentoApiClient\SearchCriteria\SearchCriteriaBuilder;
 $clientBuilder = new ClientBuilder('https://magento.hostname.com/');
 $client = $clientBuilder->buildAuthenticatedByOauth(
     '<consumer-key>>',
-    '<consumer-secret>
+    '<consumer-secret>',
     '<access-token>',
     '<access-token-secret>'
 );
