@@ -52,4 +52,12 @@ $product = $client->products->get('24-MB01');
 
 ## Credits
 
-This library is heavily inspired by the [Akeneo PHP Client](https://github.com/akeneo/api-php-client), thanks for their amazing work 🧡.
+This library is heavily inspired by - and uses parts of - the [Akeneo PHP Client](https://github.com/akeneo/api-php-client), thanks for their amazing work 🧡.
+
+## License
+
+This project is licensed under the Open Software License version 3.0 - see the [LICENSE](LICENSE) file for details.
+
+This project is not affiliated with, endorsed by, or sponsored by Adobe Inc.
+"Magento" and "Adobe Commerce" are trademarks of Adobe Inc.
+All trademarks and registered trademarks are the property of their respective owners.
