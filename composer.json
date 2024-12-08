@@ -1,6 +1,6 @@
 {
-    "name": "clickandmortar/magento-php-api-client",
-    "description": "Magento 2 PHP REST API client / SDK",
+    "name": "kraiglarson/magento-php-api-client",
+    "description": "Magento 2 PHP REST API client / SDK -- forked from clickandmortar/magento-php-api-client",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -12,10 +12,14 @@
         {
             "name": "Michael BOUVY",
             "email": "michael.bouvy@clickandmortar.fr"
+        },
+        {
+            "name": "Kraig Larson",
+            "email": "kraig@kraiglarson.com"
         }
     ],
     "require": {
-        "php": ">=8.2",
+        "php": ">=8.1",
         "psr/http-client": "^1.0",
         "psr/log": "^3.0",
         "psr/http-factory": "^1.0",

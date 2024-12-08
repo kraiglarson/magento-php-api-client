@@ -7,6 +7,7 @@ namespace ClickAndMortar\MagentoApiClient;
 use ClickAndMortar\MagentoApiClient\Api\Customers;
 use ClickAndMortar\MagentoApiClient\Api\Orders;
 use ClickAndMortar\MagentoApiClient\Api\Products;
+use ClickAndMortar\MagentoApiClient\Api\ProductAttributes;
 use ClickAndMortar\MagentoApiClient\Api\StoreViews;
 
 class Client
@@ -15,7 +16,8 @@ class Client
         public Orders $orders,
         public Customers $customers,
         public StoreViews $storeViews,
-        public Products $products
+        public Products $products,
+        public ProductAttributes $productAttributes
     )
     {
     }

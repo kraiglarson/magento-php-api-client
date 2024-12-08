@@ -7,6 +7,7 @@ namespace ClickAndMortar\MagentoApiClient;
 use ClickAndMortar\MagentoApiClient\Api\Customers;
 use ClickAndMortar\MagentoApiClient\Api\Orders;
 use ClickAndMortar\MagentoApiClient\Api\Products;
+use ClickAndMortar\MagentoApiClient\Api\ProductAttributes;
 use ClickAndMortar\MagentoApiClient\Api\StoreViews;
 use ClickAndMortar\MagentoApiClient\Client\HttpClient;
 use ClickAndMortar\MagentoApiClient\Client\ResourceClient;
@@ -65,7 +66,8 @@ class ClientBuilder
             new Orders($resourceClient, $resourceCursorFactory),
             new Customers($resourceClient, $resourceCursorFactory),
             new StoreViews($resourceClient, $resourceCursorFactory),
-            new Products($resourceClient, $resourceCursorFactory)
+            new Products($resourceClient, $resourceCursorFactory),
+            new ProductAttributes($resourceClient, $resourceCursorFactory)
         );
     }
 
